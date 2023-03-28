@@ -17,7 +17,7 @@ const Navbar = () => {
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");
-            setToggle(!toggle);
+            setToggle(false);
             window.scrollTo(0, 0);
           }}
         >
