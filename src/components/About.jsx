@@ -13,7 +13,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 mb-8 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm Frontend Developer, I spend my whole day, practically everyday,
         experimenting with React, JavaScript, CSS, HTML and other tools while
