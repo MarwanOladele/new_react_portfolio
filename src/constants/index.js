@@ -13,9 +13,11 @@ import {
   nodejs,
   git,
   figma,
-  carrent,
-  jobit,
-  tripguide,
+  asset7,
+  asset3,
+  asset4,
+  asset5,
+  asset6,
 } from "../assets";
 
 export const navLinks = [
@@ -26,6 +28,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "project",
+    title: "Project",
   },
   {
     id: "contact",
@@ -159,58 +165,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Marwan Chat",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A chat application.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sass/scss",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: asset5,
+    source_code_link: "https://github.com/MarwanOladele/chat_app",
+    deployed_code_link:'https://marwan-chat-app.vercel.app/'
   },
   {
-    name: "Job IT",
+    name: "Restaurant App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web application mainly for a Restaurants.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "es6",
         color: "green-text-gradient",
       },
       {
@@ -218,8 +204,76 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: asset7,
+    source_code_link: "https://github.com/MarwanOladele/restaurant-app",
+    deployed_code_link:'https://marwan-restaurantapp.netlify.app/'
+  },
+  {
+    name: "Weather App",
+    description:
+      "A web application for checking weather forecast.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asset6,
+    source_code_link: "https://github.com/MarwanOladele/WeatherApp",
+    deployed_code_link:'https://marwanweatherapp.netlify.app/'
+
+  },
+  {
+    name: "Ecom App",
+    description:
+      "An e-commerce application.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "es6",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asset4,
+    source_code_link: "https://github.com/MarwanOladele/e-COM-app",
+    deployed_code_link:'https://e-com-app.vercel.app/'
+  },
+  {
+    name: "Meditech",
+    description:
+      "A Hospital Management Application.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "es6",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asset3,
+    source_code_link: "https://github.com/chrismadufor/Meditech-React",
+    deployed_code_link:'https://meditech-react.netlify.app/'
   },
 ];
 

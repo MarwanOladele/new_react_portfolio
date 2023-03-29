@@ -27,27 +27,31 @@ const About = () => {
           LET'S CONNECT{" "}
         </h3>
         <div className="flex flex-row gap-3 mt-3">
-          <a href="https://github.com/MarwanOladele" target="blank">
-            <AiFillGithub
-              className="text-secondary hover:text-white"
-              style={{ fontSize: "28px" }}
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/marwan-oladele-4aa07316b/"
-            target="blank"
-          >
-            <AiFillLinkedin
-              className="text-secondary hover:text-white"
-              style={{ fontSize: "28px" }}
-            />
-          </a>
-          <a href="https://twitter.com/officialoladele" target="blank">
-            <BsTwitter
-              className="text-secondary hover:text-white"
-              style={{ fontSize: "28px" }}
-            />
-          </a>
+          <AiFillGithub
+            className="text-secondary hover:text-white"
+            style={{ fontSize: "28px" }}
+            onClick={() =>
+              window.open("https://github.com/MarwanOladele", "_blank")
+            }
+          />
+
+          <AiFillLinkedin
+            className="text-secondary hover:text-white"
+            style={{ fontSize: "28px" }}
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/marwan-oladele-4aa07316b",
+                "_blank"
+              ) 
+            }
+          />
+          <BsTwitter
+            className="text-secondary hover:text-white"
+            style={{ fontSize: "28px" }}
+            onClick={() =>
+              window.open("https://twitter.com/officialoladele", "_blank")
+            }
+          />
         </div>
       </motion.div>
     </>
