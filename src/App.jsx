@@ -24,8 +24,10 @@ const App = () => {
         <Works />
         <div className="relative  z-0">
           <Contact />
-          <StarsCanvas />
         </div>
+      <section className="h-[50px] w-full flex justify-center items-center">
+        <p className="text-secondary sm:text-[14px] text-[12px]">Marwan Oladele &copy;{new Date().getFullYear()}</p>
+      </section>
       </div>
     </BrowserRouter>
   );
