@@ -6,9 +6,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import {AiFillEye} from 'react-icons/ai'
 
-    deployed_code_link:''
 const ProjectCard = ({index, name, description, tags, image, source_code_link, deployed_code_link}) => {
-  console.log(index);
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[420px]">

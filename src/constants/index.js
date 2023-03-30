@@ -184,7 +184,7 @@ const projects = [
     ],
     image: asset5,
     source_code_link: "https://github.com/MarwanOladele/chat_app",
-    deployed_code_link:'https://marwan-chat-app.vercel.app/'
+    deployed_code_link:'https://marwan-chat-app.vercel.app/login'
   },
   {
     name: "Restaurant App",
