@@ -49,7 +49,7 @@ const About = () => {
             className="text-secondary hover:text-white"
             style={{ fontSize: "28px" }}
             onClick={() =>
-              window.open("https://twitter.com/officialoladele", "_blank")
+              window.open("https://twitter.com/simply_marwan", "_blank")
             }
           />
         </div>
