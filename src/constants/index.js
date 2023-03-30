@@ -190,7 +190,7 @@ const projects = [
   {
     name: "Restaurant App",
     description:
-      "A web application mainly for a Restaurants.",
+      "A web application mainly for Restaurants.",
     tags: [
       {
         name: "react",

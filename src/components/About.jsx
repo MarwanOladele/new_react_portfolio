@@ -17,10 +17,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 mb-8 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm Frontend Developer, I spend my whole day, practically everyday,
-        experimenting with React, JavaScript, CSS, HTML and other tools while
-        inhaling a wide variety of potentially useful information through a few
-        hundred blogs
+        I'm a Frontend Developer, I spend practically everyday experimenting
+        with React, JavaScript, CSS, HTML and other tools while inhaling a wide
+        variety of potentially useful information through a few hundred blogs and YouTube videos.
       </motion.p>
       <motion.div variants={fadeIn("", "", 0.1, 1)}>
         <h3 className="sm:text-[24px] text-[14px] uppercase tracking-wider text-[#915eff]">
@@ -42,7 +41,7 @@ const About = () => {
               window.open(
                 "https://www.linkedin.com/in/marwan-oladele-4aa07316b",
                 "_blank"
-              ) 
+              )
             }
           />
           <BsTwitter
