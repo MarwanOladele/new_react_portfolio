@@ -49,6 +49,7 @@ const Contact = () => {
         message: "",
       });
       alert("Yooooooo!. Please fill all input fields");
+      setLoading(false)
     }
   };
   return (
