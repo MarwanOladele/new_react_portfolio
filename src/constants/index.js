@@ -165,28 +165,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Marwan Chat",
-    description:
-      "A chat application.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sass/scss",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: asset5,
-    source_code_link: "https://github.com/MarwanOladele/chat_app",
-    deployed_code_link:'https://marwan-chat-app.vercel.app'
-  },
+ 
   {
     name: "Restaurant App",
     description:
@@ -230,6 +209,28 @@ const projects = [
     image: asset1,
     source_code_link: "https://github.com/MarwanOladele/admin-dashboard",
     deployed_code_link:'https://marwan-admin-dashboard.netlify.app/'
+  },
+  {
+    name: "Marwan Chat",
+    description:
+      "A chat application.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sass/scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asset5,
+    source_code_link: "https://github.com/MarwanOladele/chat_app",
+    deployed_code_link:'https://marwan-chat-app.vercel.app'
   },
   {
     name: "Weather App",
