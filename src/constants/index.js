@@ -19,6 +19,7 @@ import {
   asset5,
   asset6,
   asset1,
+  asset2
 } from "../assets";
 
 export const navLinks = [
@@ -165,7 +166,28 @@ const testimonials = [
 ];
 
 const projects = [
- 
+  {
+    name: "Ecom App",
+    description:
+      "An e-commerce application.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "es6",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asset4,
+    source_code_link: "https://github.com/MarwanOladele/e-COM-app",
+    deployed_code_link:'https://e-com-app.vercel.app/'
+  },
   {
     name: "Restaurant App",
     description:
@@ -233,6 +255,28 @@ const projects = [
     deployed_code_link:'https://marwan-chat-app.vercel.app'
   },
   {
+    name: "Netflix Clone",
+    description:
+      "A web application clone from Netflix main website",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asset2,
+    source_code_link: "https://github.com/MarwanOladele?tab=repositories",
+    deployed_code_link:''
+  },
+  {
     name: "Weather App",
     description:
       "A web application for checking weather forecast.",
@@ -254,28 +298,6 @@ const projects = [
     source_code_link: "https://github.com/MarwanOladele/WeatherApp",
     deployed_code_link:'https://marwanweatherapp.netlify.app/'
 
-  },
-  {
-    name: "Ecom App",
-    description:
-      "An e-commerce application.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "es6",
-        color: "green-text-gradient",
-      },
-      {
-        name: "sanity",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: asset4,
-    source_code_link: "https://github.com/MarwanOladele/e-COM-app",
-    deployed_code_link:'https://e-com-app.vercel.app/'
   },
   {
     name: "Meditech",

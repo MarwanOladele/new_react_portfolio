@@ -12,6 +12,7 @@ import asset3 from "./asset2.png";
 import asset4 from "./asset4.png";
 import asset6 from "./asset6.png";
 import asset7 from "./asset7.png";
+import asset2 from "./asset3.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -56,4 +57,5 @@ export {
   asset4,
   asset5,
   asset6,
+  asset2
 };
