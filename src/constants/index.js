@@ -233,26 +233,26 @@ const projects = [
     deployed_code_link:'https://marwan-admin-dashboard.netlify.app/'
   },
   {
-    name: "Marwan Chat",
+    name: "Spotify Clone",
     description:
-      "A chat application.",
+      "A music application.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "sass/scss",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
     image: asset5,
-    source_code_link: "https://github.com/MarwanOladele/chat_app",
-    deployed_code_link:'https://marwan-chat-app.vercel.app'
+    source_code_link: "https://github.com/MarwanOladele/spotify_clone",
+    deployed_code_link:'https://spotify-clone-marwanoladele.vercel.app/'
   },
   {
     name: "Netflix Clone",
