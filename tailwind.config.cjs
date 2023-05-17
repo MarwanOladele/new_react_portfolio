@@ -13,6 +13,15 @@ module.exports = {
         "white-100": "#f3f3f3",
         "logo-background": "rgb(236, 231, 231)"
       },
+      keyframes: {
+        wiggle: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 0.5s ease-in-out',
+      },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },

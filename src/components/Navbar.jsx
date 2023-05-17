@@ -39,25 +39,27 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center z-10 ">
           <img
             src={toggle ? close : menu}
             alt="menu"
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
+
+
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 w-1/3 z-10 rounded-xl animate-wiggle`}
           >
-            <ul className="list-none flex justify-end item-start flex-col gap-4">
+            <ul className="list-none flex justify-end item-start flex-col gap-10">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
                   className={`${
                     active === link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium cursor-pointer text-[16px] `}
+                  } font-poppins font-medium cursor-pointer text-[18px] `}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
