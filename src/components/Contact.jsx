@@ -1,5 +1,7 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import { message } from "antd";
+import "antd/dist/reset.css";
 import { styles } from "../style";
 import { SectionWrapper } from "../hoc";
 
@@ -11,49 +13,46 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    emailjs.init("cCYbNrevKyfsQD6ih");
+  }, []);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true)
+    setLoading(true);
 
     if (form.name && form.email && form.message) {
-      emailjs
-        .sendForm(
-          "service_y8wpbms",
-          "template_e53ovls",
-          formref.current,
-          "cCYbNrevKyfsQD6ih"
-        )
-        .then(
-          (result) => {
-            setLoading(false)
-            alert('Thank you.😊 I will get back to you as soon as possible')
-            setForm({
-              name: "",
-              email: "",
-              message: "",
-            });
-          },
-          (error) => {
-            setLoading(false)
-            console.log(error.text);
-          }
+      try {
+        await emailjs.send("service_y8wpbms", "template_e53ovls", {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        });
+
+        setForm({ name: "", email: "", message: "" });
+        formref.current.reset();
+        message.success(
+          "Thank you 😊 I will get back to you as soon as possible!"
         );
+      } catch (error) {
+        message.error("Failed to send message. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
     } else {
-      setForm({
-        name: "",
-        email: "",
-        message: "",
-      });
-      alert("Yooooooo!. Please fill all input fields");
-      setLoading(false)
+      message.warning("Yooooooo! Please fill all input fields");
+      setLoading(false);
     }
   };
+
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center">
       <div className="bg-black-100 p-8 rounded-2xl md:w-[800px] w-[100%]">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -99,7 +98,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
-            {loading ? "Sending" : "Send"}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </div>

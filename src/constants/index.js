@@ -21,6 +21,7 @@ import {
   asset1,
   asset2,
 } from "../assets";
+import FinerCreditLogo from "../assets/fc.png";
 
 export const navLinks = [
   {
@@ -114,13 +115,37 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
+    company_name: "Finer Credit",
+    icon: FinerCreditLogo,
+    iconBg: "#383E56",
+    date: "Apr 2024 - Present",
+    points: [
+      "Translated Create React App setups to Vite for improved build performance and faster development workflows.",
+      "Debugged and resolved complex issues, including API integrations and UI/UX inconsistencies, optimizing application reliability and performance.",
+      "Collaborated with cross-functional teams to deliver user-focused features, incorporating dynamic functionalities and interactive elements.",
+    ],
+  },
+  {
+    title: "Frontend Developer | Contract",
+    company_name: "Rocket Innovations",
+    icon: "https://media.licdn.com/dms/image/C560BAQFDvZ3Fn9hWfw/company-logo_200_200/0/1656629050371?e=2147483647&v=beta&t=KX5oQtp5M7yI6eRoASi15y1iLVuKfRBQ9PZbEWrc7UQ", // Replace with actual logo if needed
+    iconBg: "#383E56",
+    date: "Oct 2023 - Apr 2024",
+    points: [
+      "Collaborated closely with the development team to strategize and execute design specifications, maintaining a harmonious integration of design and functionality.",
+      "Spearheaded the development of cutting-edge frontend components and user interfaces, ensuring a responsive and visually appealing end product.",
+      "Conducted thorough testing and debugging of frontend code to optimize performance and enhance overall system reliability.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
     company_name: "GO4U",
     icon: "https://media.licdn.com/dms/image/C4D0BAQESe_PU8AluXw/company-logo_200_200/0/1662223054030?e=2147483647&v=beta&t=mSe8aREGhc9u9N8Zj3nSFKtByntXj54TrK7WkUpY4Wo",
     iconBg: "#383E56",
-    date: " Apr 2023 - Present",
+    date: "Apr 2023 - Present",
     points: [
       "Assisted in the development of frontend components and user interfaces.",
-      "Tested and debugged frontend code for optimal performance",
+      "Tested and debugged frontend code for optimal performance.",
       "Participated in code reviews while providing constructive feedback.",
     ],
   },
@@ -133,7 +158,7 @@ const experiences = [
     points: [
       "Developed features that enhance user experience.",
       "Optimized web pages for maximum speed and scalability.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
     ],
   },
   {
