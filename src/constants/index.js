@@ -138,7 +138,7 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer | Contract",
+    title: "Frontend Developer",
     company_name: "GO4U - Akure, Nigeria (Remote)",
     icon: "https://media.licdn.com/dms/image/C4D0BAQESe_PU8AluXw/company-logo_200_200/0/1662223054030?e=2147483647&v=beta&t=mSe8aREGhc9u9N8Zj3nSFKtByntXj54TrK7WkUpY4Wo",
     iconBg: "#383E56",
