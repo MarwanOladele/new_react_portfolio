@@ -114,7 +114,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Lead Frontend Developer",
     company_name: "Finer Credit - London, United Kingdom (Remote)",
     icon: FinerCreditLogo,
     iconBg: "#383E56",
@@ -130,22 +130,11 @@ const experiences = [
     company_name: "Rocket Innovations - Ontario, Canada (Remote)",
     icon: "",
     iconBg: "#383E56",
-    date: "Oct 2023 - Apr 2024",
+    date: "Apr 2023 - Mar 2024",
     points: [
       "Translated 30+ pages from Figma design specifications into production-ready React components, ensuring pixel-perfect accuracy and seamless cross-device responsiveness",
       "Promoted clean, maintainable, and scalable code practices to enhance long-term project stability and team efficiency",
       "Integrated real-time chat feature using Socket.IO, enabling instant user-to-user communication with live updates and improved customer engagement",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "GO4U - Akure, Nigeria (Remote)",
-    icon: "https://media.licdn.com/dms/image/C4D0BAQESe_PU8AluXw/company-logo_200_200/0/1662223054030?e=2147483647&v=beta&t=mSe8aREGhc9u9N8Zj3nSFKtByntXj54TrK7WkUpY4Wo",
-    iconBg: "#383E56",
-    date: "Apr 2023 - Oct 2023",
-    points: [
-      "Built and optimized modular frontend components, improving maintainability and scalability of the codebase",
-      "Collaborated with designers and backend engineers to deliver seamless end-to-end user experiences",
       "Participated in code reviews, introducing best practices that improved team productivity and reduced post-release defects",
     ],
   },
@@ -154,7 +143,7 @@ const experiences = [
     company_name: "CyberFleet - Lagos, Nigeria (Remote)",
     icon: "https://media.licdn.com/dms/image/C4E0BAQHpNRORTbi6Ew/company-logo_200_200/0/1593833668180?e=2147483647&v=beta&t=NuqgctYqNzQCiVZuB9hcbeiWwMthDrTTrbjbA7d4QXc",
     iconBg: "#383E56",
-    date: "Jul 2022 - Apr 2023",
+    date: "Jan 2022 - Mar 2023",
     points: [
       "Collaborated across teams in a remote-first environment to plan and implement epics and features with impactful results",
       "Collaborated with the design and development teams to translate UI/UX wireframes and mockups into functional and responsive web pages",
