@@ -143,7 +143,7 @@ const experiences = [
     company_name: "CyberFleet - Lagos, Nigeria (Remote)",
     icon: "https://media.licdn.com/dms/image/C4E0BAQHpNRORTbi6Ew/company-logo_200_200/0/1593833668180?e=2147483647&v=beta&t=NuqgctYqNzQCiVZuB9hcbeiWwMthDrTTrbjbA7d4QXc",
     iconBg: "#383E56",
-    date: "Jan 2022 - Mar 2023",
+    date: "Feb 2022 - Mar 2023",
     points: [
       "Collaborated across teams in a remote-first environment to plan and implement epics and features with impactful results",
       "Collaborated with the design and development teams to translate UI/UX wireframes and mockups into functional and responsive web pages",
